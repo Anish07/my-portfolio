@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+/* stylelint-disable-next-line */
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+    body {
+        background-color: white;
+        color: rgb(17 24 39);
+        transition: color 0.3s, background-color 0.3s;
+    }
+
+    .dark body {
+        background-color: rgb(17 24 39);
+        color: white;
+    }
+}
