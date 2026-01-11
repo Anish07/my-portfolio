@@ -118,13 +118,6 @@ The production-ready files will be in the `dist` directory.
 npm run preview
 ```
 
-## 🌐 Deployment
-
-This portfolio can be deployed to various platforms:
-- **Vercel**: Connect your GitHub repository for automatic deployments
-- **Netlify**: Drag and drop the `dist` folder or connect via Git
-- **GitHub Pages**: Use `gh-pages` package for deployment
-
 ## 📱 Features in Detail
 
 ### Dark Mode
