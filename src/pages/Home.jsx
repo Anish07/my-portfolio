@@ -1,4 +1,5 @@
 import profilePic from '../assets/IMG_6103.jpg';
+import { Link } from 'react-router-dom';
 
 import { FaLinkedin, FaGithub, FaEnvelope, FaLightbulb, FaHandshake, FaComments, FaPuzzlePiece, FaJava, FaUsers, FaClock, FaChartLine, FaRocket } from 'react-icons/fa';
 import { SiPython, SiJavascript, SiReact, SiTailwindcss, SiMysql, SiGit, SiCplusplus, SiNodedotjs, SiMongodb, SiTerraform, SiPandas } from 'react-icons/si';
@@ -56,12 +57,12 @@ export default function Home() {
           </div>
 
           <div className="flex justify-center gap-4">
-            <a
-              href="/projects"
+            <Link
+              to="/projects"
               className="bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition duration-300 shadow-md"
             >
               View My Work
-            </a>
+            </Link>
             <a
               href="/Anish.pdf"
               target="_blank"
