@@ -24,7 +24,7 @@ export default function Home() {
             Hi, I’m <span className="text-blue-600 dark:text-blue-400">Anish Ahuja</span>!
           </h1>
           <p className="text-lg text-gray-600 dark:text-gray-300 mb-8 max-w-2xl mx-auto">
-            BSc - Computer Science Student @ TMU
+            BSc - Computer Science @ TMU
             <br />
             <span className="font-semibold text-blue-600 dark:text-blue-400">
               <TypeAnimation
@@ -109,7 +109,7 @@ export default function Home() {
             <SkillCard
               icon={<SiJavascript className="text-4xl text-yellow-400" />}
               title="JavaScript"
-              desc="Full-Stack Web Apps (YelpCamp)"
+              desc="Full-Stack Web Apps (YelpCamp, ArtX Platform, SmartResume Analyzer)"
               delay={0.3}
             />
             <SkillCard
@@ -157,49 +157,49 @@ export default function Home() {
             <SkillCard
               icon={<FaLightbulb className="text-4xl text-yellow-500" />}
               title="Innovation"
-              desc="Participant of OPG Innovation Pitch 2024"
+              desc="Participant of OPG Innovation Pitch 2024 where I pitched an idea to improve continuous training for field workers"
               delay={0}
             />
             <SkillCard
               icon={<FaPuzzlePiece className="text-4xl text-green-500" />}
               title="Problem Solving"
-              desc="Awarded RCMP Challenge Coin for innovative solutions"
+              desc="Awarded RCMP Challenge Coin for innovative solutions that suppport national policing applications"
               delay={0.1}
             />
             <SkillCard
               icon={<FaComments className="text-4xl text-blue-400" />}
               title="Communication"
-              desc="Presenting technical insights to stakeholders and PM's"
+              desc="Presenting technical insights to stakeholders and PM's to improve efficiency and reduce costs"
               delay={0.2}
             />
             <SkillCard
               icon={<FaHandshake className="text-4xl text-orange-500" />}
               title="Collaboration"
-              desc="Thriving in Agile Co-op environments"
+              desc="Thriving in Agile Co-op environments where I worked with cross-functional teams to deliver high-quality software"
               delay={0.3}
             />
             <SkillCard
               icon={<FaUsers className="text-4xl text-purple-500" />}
               title="Leadership"
-              desc="Leading projects and mentoring team members at OPG"
+              desc="Leading projects and mentoring team members at OPG to support turnover and knowledge transfer"
               delay={0.4}
             />
             <SkillCard
               icon={<FaRocket className="text-4xl text-red-500" />}
               title="Adaptability"
-              desc="Quickly learning new technologies across various Co-op placements"
+              desc="Quickly learning new technologies across various Co-op placements by leveraging my strong foundation in computer science."
               delay={0.5}
             />
             <SkillCard
               icon={<FaChartLine className="text-4xl text-teal-500" />}
               title="Analytical Thinking"
-              desc="Data-driven decision making and insights at OPG"
+              desc="Data-driven decision making and providing Power BI based actional insights at OPG to assist in decision making"
               delay={0.6}
             />
             <SkillCard
               icon={<FaClock className="text-4xl text-indigo-500" />}
               title="Time Management"
-              desc="Balancing multiple projects and academic commitments"
+              desc="Balancing multiple projects and academic commitments by leveraging my strong time management skills."
               delay={0.7}
             />
           </div>

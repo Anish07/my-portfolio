@@ -17,7 +17,7 @@ export default function Products() {
                         Featured Products
                     </h2>
                     <p className="text-xl text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
-                        Deep dives into some of my most complex and full-featured applications.
+                        Deep dive into some of my most complex and full-featured web applications.
                     </p>
                 </motion.div>
 

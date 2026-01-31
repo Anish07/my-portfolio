@@ -16,7 +16,7 @@ const projects = [
   },
   {
     title: "LeBot Discord Bot",
-    desc: "A Discord bot built with Python.",
+    desc: "A Discord bot built with Python as part of a fun side project.",
     tech: ["Python", "Discord.py"],
     link: "https://github.com/Anish07/LeBot",
   },

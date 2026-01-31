@@ -9,13 +9,13 @@ Key features include:
 - **User Authentication**: Secure login and registration using Passport.js.
 - **Campground Management**: Create, edit, and delete campgrounds.
 - **Reviews & Ratings**: Leave reviews and ratings for campgrounds.
-- **Interactive Maps**: visual location of campgrounds using Mapbox.
-- **Image Uploads**: Cloud-based image storage with Cloudinary.`,
+- **Interactive Maps**: Visual location of campgrounds is provided using Mapbox and GeoCoding.
+- **Image Uploads**: Cloud-based image storage done using Cloudinary.`,
         techStack: ["Node.js", "Express", "MongoDB", "Passport.js", "Bootstrap", "Mapbox", "Cloudinary"],
         repoLink: "https://github.com/Anish07/yelpcamp",
         liveLink: "https://yelp-camp-fzrm.vercel.app/",
         previewLink: "/products/yelpcamp/site",
-        images: [], // Add screenshots here
+        images: ["/assets/projects/yelpcamp-home.png"],
     },
     {
         id: "smartresumeanalyzer",
@@ -26,8 +26,8 @@ Key features include:
 Key features include:
 - **Resume Parsing**: Automatically extracts text from PDF resumes using Apache Tika.
 - **AI Analysis**: Uses Google Gemini to summarize and rate resumes.
-- **Interactive Dashboard**: Visualizes analysis results.
-- **Secure Authentication**: JWT-based user security.`,
+- **Interactive Dashboard**: Visualizes analysis results to support your resume improvement journey.
+- **Secure Authentication**: Provides JWT-based user security.`,
         techStack: ["Angular", "Spring Boot", "Java", "Google Gemini API", "PostgreSQL", "Apache Tika"],
         repoLink: "https://github.com/Anish07/smartresumeanalyzer",
         liveLink: "https://smartresumeanalyzer-anish07.vercel.app/",
@@ -54,6 +54,6 @@ Key features include:
         repoLink: "https://github.com/Anish07/ArtAuctionPortfolio",
         liveLink: "https://online-art-auctioning-platform.vercel.app/",
         previewLink: "/products/artauctionportfolio/site",
-        images: [],
+        images: ["/assets/projects/artx-home.png"],
     },
 ];

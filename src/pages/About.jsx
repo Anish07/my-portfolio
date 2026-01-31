@@ -39,7 +39,7 @@ export default function About() {
                 I've completed Internships at the{" "}
                 <span className="font-semibold text-blue-600 dark:text-blue-400">Royal Canadian Mounted Police</span> and{" "}
                 <span className="font-semibold text-blue-600 dark:text-blue-400">Ontario Power Generation</span>, where I built
-                tools that improve workflows and provide insights. These experiences have strengthened my technical skills
+                tools that improve workflows and provide actionable insights. These experiences have strengthened my technical skills
                 and given me valuable real-world experience in software development and data analytics.
               </p>
             </div>
