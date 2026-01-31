@@ -21,10 +21,10 @@ const projects = [
     link: "https://github.com/Anish07/LeBot",
   },
   {
-    title: "TV Show Search App",
-    desc: "A TV show search application built with JavaScript.",
-    tech: ["JavaScript", "API"],
-    link: "https://github.com/Anish07/TVSearchApp",
+    title: "Machine Learning Project",
+    desc: "This project performs customer segmentation analysis on the Mall Customers dataset.",
+    tech: ["Python", "Machine Learning"],
+    link: "https://github.com/Anish07/Machine-Learning-Project",
   },
   {
     title: "Packet Sniffer",
@@ -33,10 +33,10 @@ const projects = [
     link: "https://github.com/Anish07/Packet-Sniffer",
   },
   {
-    title: "YelpCamp",
-    desc: "Full-Stack Web Application built using NodeJs, Express, MongoDB, and Cloudinary.",
-    tech: ["Node.js", "Express", "MongoDB"],
-    link: "https://github.com/Anish07/YelpCamp",
+    title: "CipherDecipher",
+    desc: "A C++ program where the user input can be ciphered or deciphered based on the ASCII key.",
+    tech: ["C++", "Algorithms"],
+    link: "https://github.com/Anish07/CipherDecipher",
   },
   {
     title: "Terraform Demo",

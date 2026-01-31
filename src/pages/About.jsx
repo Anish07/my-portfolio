@@ -36,7 +36,7 @@ export default function About() {
                 💼 Work Experience
               </h3>
               <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
-                I've completed Co-Op Work Terms at the{" "}
+                I've completed Internships at the{" "}
                 <span className="font-semibold text-blue-600 dark:text-blue-400">Royal Canadian Mounted Police</span> and{" "}
                 <span className="font-semibold text-blue-600 dark:text-blue-400">Ontario Power Generation</span>, where I built
                 tools that improve workflows and provide insights. These experiences have strengthened my technical skills
@@ -50,7 +50,7 @@ export default function About() {
                 🎯 Hobbies & Interests
               </h3>
               <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
-                Outside of school and work, I enjoy playing pool, reading, and walking my dog. These activities help me
+                Outside of school and work, I enjoy playing pool, reading, traveling, and walking my dog. These activities help me
                 stay balanced and bring fresh perspectives to my technical work.
               </p>
             </div>
@@ -61,7 +61,7 @@ export default function About() {
           <GalleryItem
             img={img1}
             alt="RCMP Challenge Coin"
-            caption="RCMP Challenge Coin Summer 2023"
+            caption="RCMP Challenge Coin"
           />
           <GalleryItem
             img={img2}
@@ -70,8 +70,8 @@ export default function About() {
           />
           <GalleryItem
             img={img3}
-            alt="OPG Co-op Team"
-            caption="OPG Winter 2025 Internship Team"
+            alt="Visiting Dubai"
+            caption="Visiting Dubai"
           />
           <GalleryItem
             img={img4}

@@ -1,0 +1,24 @@
+{
+    "rewrites": [
+        {
+            "source": "/products/yelpcamp/site/:match*",
+            "destination": "https://yelp-camp-fzrm.vercel.app/:match*"
+        },
+        {
+            "source": "/products/smartresumeanalyzer/site/:match*",
+            "destination": "https://smartresumeanalyzer-anish07.vercel.app/:match*"
+        },
+        {
+            "source": "/products/tvsearchapp/site/:match*",
+            "destination": "https://tvsearchapp-anish07.vercel.app/:match*"
+        },
+        {
+            "source": "/products/artauctionportfolio/site/:match*",
+            "destination": "https://online-art-auctioning-platform.vercel.app/:match*"
+        },
+        {
+            "source": "/(.*)",
+            "destination": "/index.html"
+        }
+    ]
+}
