@@ -13,7 +13,8 @@ Key features include:
 - **Image Uploads**: Cloud-based image storage with Cloudinary.`,
         techStack: ["Node.js", "Express", "MongoDB", "Passport.js", "Bootstrap", "Mapbox", "Cloudinary"],
         repoLink: "https://github.com/Anish07/yelpcamp",
-        liveLink: "/products/yelpcamp/site/", // Proxy to external app
+        liveLink: "https://yelp-camp-fzrm.vercel.app/",
+        previewLink: "/products/yelpcamp/site",
         images: [], // Add screenshots here
     },
     {
@@ -29,7 +30,8 @@ Key features include:
 - **Secure Authentication**: JWT-based user security.`,
         techStack: ["Angular", "Spring Boot", "Java", "Google Gemini API", "PostgreSQL", "Apache Tika"],
         repoLink: "https://github.com/Anish07/smartresumeanalyzer",
-        liveLink: "/products/smartresumeanalyzer/site/", // Proxy to external app
+        liveLink: "https://smartresumeanalyzer-anish07.vercel.app/",
+        previewLink: "/products/smartresumeanalyzer/site",
         images: [],
     },
     {
@@ -39,7 +41,8 @@ Key features include:
         longDescription: `The TV Search App allows users to search for their favorite TV shows and get detailed information including cast, ratings, and summaries. It utilizes a public TV API to fetch real-time data.`,
         techStack: ["JavaScript", "HTML", "CSS", "TV Maze API"], // Inferring standard stack for this type of app
         repoLink: "https://github.com/Anish07/TvSearchApp",
-        liveLink: "/products/tvsearchapp/site/", // Proxy to external app
+        liveLink: "https://tvsearchapp-anish07.vercel.app/",
+        previewLink: "/products/tvsearchapp/site",
         images: [],
     },
     {
@@ -49,7 +52,8 @@ Key features include:
         longDescription: `A specialized markplace site designed to showcase art items available for auction. It features a gallery view, item details, and potential bidding mechanisms or status updates.`,
         techStack: ["React", "JavaScript", "CSS", "Firebase", "Tailwind CSS", "Vite"],
         repoLink: "https://github.com/Anish07/ArtAuctionPortfolio",
-        liveLink: "/products/artauctionportfolio/site/", // Proxy to external app
+        liveLink: "https://online-art-auctioning-platform.vercel.app/",
+        previewLink: "/products/artauctionportfolio/site",
         images: [],
     },
 ];
