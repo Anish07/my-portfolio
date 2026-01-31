@@ -1,5 +1,5 @@
 import profilePic from '../assets/IMG_6103.jpg';
-import resume from '../assets/Anish_s_Resume.pdf';
+
 import { FaLinkedin, FaGithub, FaEnvelope, FaLightbulb, FaHandshake, FaComments, FaPuzzlePiece, FaJava, FaUsers, FaClock, FaChartLine, FaRocket } from 'react-icons/fa';
 import { SiPython, SiJavascript, SiReact, SiTailwindcss, SiMysql, SiGit, SiCplusplus, SiNodedotjs, SiMongodb, SiTerraform, SiPandas } from 'react-icons/si';
 import { motion } from 'framer-motion';
@@ -63,7 +63,7 @@ export default function Home() {
               View My Work
             </a>
             <a
-              href={resume}
+              href="/Anish.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-white dark:bg-gray-700 text-blue-600 dark:text-blue-300 border border-blue-600 dark:border-blue-400 px-6 py-3 rounded-lg font-semibold hover:bg-blue-50 dark:hover:bg-gray-600 transition duration-300 shadow-md"
