@@ -36,14 +36,19 @@ Key features include:
     },
     {
         id: "tvsearchapp",
-        title: "TV Search App",
-        description: "A web application to search for TV shows and view details.",
-        longDescription: `The TV Search App allows users to search for their favorite TV shows and get detailed information including cast, ratings, and summaries. It utilizes a public TV API to fetch real-time data.`,
-        techStack: ["JavaScript", "HTML", "CSS", "TV Maze API"], // Inferring standard stack for this type of app
+        title: "TV Show Search", // Updated title from README
+        description: "A simple, premium-styled web application to search for TV shows.",
+        longDescription: `A simple, premium-styled web application that allows users to search for TV shows and view their posters. Built using the TVMaze API.
+
+Key features include:
+- **Search Functionality**: Instantly find TV shows by title.
+- **Premium UI**: Modern dark mode design with responsive grid layout and hover effects.
+- **Dynamic Content**: Fetches and displays show posters dynamically.`,
+        techStack: ["JavaScript", "HTML5", "CSS3", "Axios", "TVMaze API"],
         repoLink: "https://github.com/Anish07/TvSearchApp",
-        liveLink: "https://tvsearchapp-anish07.vercel.app/",
+        liveLink: "https://tv-search-app-beta.vercel.app",
         previewLink: "/products/tvsearchapp/site",
-        images: [],
+        images: ["/assets/projects/tv-search-home.png"],
     },
     {
         id: "artauctionportfolio",
