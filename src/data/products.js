@@ -30,9 +30,9 @@ Key features include:
 - **Secure Authentication**: Provides JWT-based user security.`,
         techStack: ["Angular", "Spring Boot", "Java", "Google Gemini API", "PostgreSQL", "Apache Tika"],
         repoLink: "https://github.com/Anish07/smartresumeanalyzer",
-        liveLink: "https://smartresumeanalyzer-anish07.vercel.app/",
+        liveLink: "https://smartresumeanalyzer-43ii.onrender.com",
         previewLink: "/products/smartresumeanalyzer/site",
-        images: [],
+        images: ["/assets/projects/smart-resume-home.png"],
     },
     {
         id: "tvsearchapp",
