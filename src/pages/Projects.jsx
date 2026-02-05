@@ -28,7 +28,7 @@ const projects = [
   },
   {
     title: "Packet Sniffer",
-    desc: "A network packet sniffer implementation in C.",
+    desc: "A lightweight raw socket packet sniffer written in C for Linux systems.",
     tech: ["C", "Networking"],
     link: "https://github.com/Anish07/Packet-Sniffer",
   },
