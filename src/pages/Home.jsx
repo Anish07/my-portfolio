@@ -1,7 +1,7 @@
 import profilePic from '../assets/IMG_6103.jpg';
 import { Link } from 'react-router-dom';
 
-import { FaLinkedin, FaGithub, FaEnvelope, FaLightbulb, FaHandshake, FaComments, FaPuzzlePiece, FaJava, FaUsers, FaClock, FaChartLine, FaRocket } from 'react-icons/fa';
+import { FaLinkedin, FaGithub, FaEnvelope, FaLightbulb, FaHandshake, FaComments, FaPuzzlePiece, FaJava, FaUsers, FaClock, FaChartLine, FaRocket, FaInstagram } from 'react-icons/fa';
 import { SiPython, SiJavascript, SiReact, SiTailwindcss, SiMysql, SiGit, SiCplusplus, SiNodedotjs, SiMongodb, SiTerraform, SiPandas } from 'react-icons/si';
 import { motion } from 'framer-motion';
 import { TypeAnimation } from 'react-type-animation';
@@ -53,6 +53,9 @@ export default function Home() {
             </a>
             <a href="mailto:anishahuja46@gmail.com" className="text-gray-600 dark:text-gray-400 hover:text-red-500 text-3xl transition">
               <FaEnvelope />
+            </a>
+            <a href="https://instagram.com/anish._a7" target="_blank" rel="noopener noreferrer" className="text-gray-600 dark:text-gray-400 hover:text-pink-500 text-3xl transition">
+              <FaInstagram />
             </a>
           </div>
 

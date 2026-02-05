@@ -15,6 +15,9 @@ export default function Footer() {
           <a href="mailto:anishahuja46@gmail.com" className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition">
             Email
           </a>
+          <a href="https://instagram.com/anish._a7" className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition">
+            Instagram
+          </a>
         </div>
       </div>
     </footer>
