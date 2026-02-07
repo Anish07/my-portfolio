@@ -161,31 +161,31 @@ export default function Home() {
             <SkillCard
               icon={<FaLightbulb className="text-4xl text-yellow-500" />}
               title="Innovation"
-              desc="Participant of OPG Innovation Pitch 2024 where I pitched an idea to improve continuous training for field workers"
+              desc="Participant of OPG Innovation Pitch 2024 where I pitched an idea to improve continuous training for field workers."
               delay={0}
             />
             <SkillCard
               icon={<FaPuzzlePiece className="text-4xl text-green-500" />}
               title="Problem Solving"
-              desc="Awarded RCMP Challenge Coin for innovative solutions that suppport national policing applications"
+              desc="Awarded RCMP Challenge Coin for innovative solutions that suppport national policing applications."
               delay={0.1}
             />
             <SkillCard
               icon={<FaComments className="text-4xl text-blue-400" />}
               title="Communication"
-              desc="Presented technical insights to stakeholders and PM's to improve efficiency and reduce costs"
+              desc="Presented technical insights to stakeholders and PM's to improve efficiency and reduce costs."
               delay={0.2}
             />
             <SkillCard
               icon={<FaHandshake className="text-4xl text-orange-500" />}
               title="Collaboration"
-              desc="Thrived in an Agile Co-op environment where I worked with cross-functional teams to deliver high-quality software"
+              desc="Thrived in an Agile Co-op environment where I worked with cross-functional teams to deliver high-quality software."
               delay={0.3}
             />
             <SkillCard
               icon={<FaUsers className="text-4xl text-purple-500" />}
               title="Leadership"
-              desc="Led projects and mentored team members at OPG to support turnover and knowledge transfer"
+              desc="Led projects and mentored team members at OPG to support turnover and knowledge transfer."
               delay={0.4}
             />
             <SkillCard
@@ -197,7 +197,7 @@ export default function Home() {
             <SkillCard
               icon={<FaChartLine className="text-4xl text-teal-500" />}
               title="Analytical Thinking"
-              desc="Made data-driven decisions and provided Power BI based actional insights at OPG to assist in decision making"
+              desc="Made data-driven decisions and provided Power BI based actional insights at OPG to assist in decision making."
               delay={0.6}
             />
             <SkillCard
