@@ -173,37 +173,37 @@ export default function Home() {
             <SkillCard
               icon={<FaComments className="text-4xl text-blue-400" />}
               title="Communication"
-              desc="Presenting technical insights to stakeholders and PM's to improve efficiency and reduce costs"
+              desc="Presented technical insights to stakeholders and PM's to improve efficiency and reduce costs"
               delay={0.2}
             />
             <SkillCard
               icon={<FaHandshake className="text-4xl text-orange-500" />}
               title="Collaboration"
-              desc="Thriving in Agile Co-op environments where I worked with cross-functional teams to deliver high-quality software"
+              desc="Thrived in an Agile Co-op environment where I worked with cross-functional teams to deliver high-quality software"
               delay={0.3}
             />
             <SkillCard
               icon={<FaUsers className="text-4xl text-purple-500" />}
               title="Leadership"
-              desc="Leading projects and mentoring team members at OPG to support turnover and knowledge transfer"
+              desc="Led projects and mentored team members at OPG to support turnover and knowledge transfer"
               delay={0.4}
             />
             <SkillCard
               icon={<FaRocket className="text-4xl text-red-500" />}
               title="Adaptability"
-              desc="Quickly learning new technologies across various Co-op placements by leveraging my strong foundation in computer science."
+              desc="Quickly learned new technologies across various Co-op placements by leveraging my strong foundation in computer science."
               delay={0.5}
             />
             <SkillCard
               icon={<FaChartLine className="text-4xl text-teal-500" />}
               title="Analytical Thinking"
-              desc="Data-driven decision making and providing Power BI based actional insights at OPG to assist in decision making"
+              desc="Made data-driven decisions and provided Power BI based actional insights at OPG to assist in decision making"
               delay={0.6}
             />
             <SkillCard
               icon={<FaClock className="text-4xl text-indigo-500" />}
               title="Time Management"
-              desc="Balancing multiple projects and academic commitments by leveraging my strong time management skills."
+              desc="Balanced multiple projects and academic commitments by leveraging my strong time management skills."
               delay={0.7}
             />
           </div>
