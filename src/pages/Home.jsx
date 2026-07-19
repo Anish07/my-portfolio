@@ -5,6 +5,8 @@ import { FaLinkedin, FaGithub, FaEnvelope, FaLightbulb, FaHandshake, FaComments,
 import { SiPython, SiJavascript, SiReact, SiTailwindcss, SiMysql, SiGit, SiCplusplus, SiNodedotjs, SiMongodb, SiTerraform, SiPandas } from 'react-icons/si';
 import { motion } from 'framer-motion';
 import { TypeAnimation } from 'react-type-animation';
+/* Feature flags — control visibility of images and resume links (see src/config/featureFlags.js) */
+import { SHOW_IMAGES, SHOW_RESUME } from '../config/featureFlags';
 
 export default function Home() {
   return (
@@ -16,16 +18,19 @@ export default function Home() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <img
-            src={profilePic}
-            alt="Anish Ahuja"
-            className="w-60 h-60 rounded-full mx-auto mb-6 object-cover shadow-lg border-4 border-white dark:border-gray-700"
-          />
+          {/* Feature Flag: Profile photo — controlled by SHOW_IMAGES */}
+          {SHOW_IMAGES && (
+            <img
+              src={profilePic}
+              alt="Anish Ahuja"
+              className="w-60 h-60 rounded-full mx-auto mb-6 object-cover shadow-lg border-4 border-white dark:border-gray-700"
+            />
+          )}
           <h1 className="text-5xl font-extrabold text-gray-900 dark:text-white mb-6">
             Hi, I’m <span className="text-blue-600 dark:text-blue-400">Anish Ahuja</span>!
           </h1>
           <p className="text-lg text-gray-600 dark:text-gray-300 mb-8 max-w-2xl mx-auto">
-            BSc - Computer Science @ TMU
+            BSc - Computer Science (Honours) Graduate from TMU | Assistant Software Engineer Developer @ OPG
             <br />
             <span className="font-semibold text-blue-600 dark:text-blue-400">
               <TypeAnimation
@@ -66,14 +71,17 @@ export default function Home() {
             >
               View My Work
             </Link>
-            <a
-              href="/Anish.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-white dark:bg-gray-700 text-blue-600 dark:text-blue-300 border border-blue-600 dark:border-blue-400 px-6 py-3 rounded-lg font-semibold hover:bg-blue-50 dark:hover:bg-gray-600 transition duration-300 shadow-md"
-            >
-              View Resume
-            </a>
+            {/* Feature Flag: View Resume button — controlled by SHOW_RESUME */}
+            {SHOW_RESUME && (
+              <a
+                href="/Anish.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-white dark:bg-gray-700 text-blue-600 dark:text-blue-300 border border-blue-600 dark:border-blue-400 px-6 py-3 rounded-lg font-semibold hover:bg-blue-50 dark:hover:bg-gray-600 transition duration-300 shadow-md"
+              >
+                View Resume
+              </a>
+            )}
           </div>
         </motion.div>
       </section>

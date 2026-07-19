@@ -5,6 +5,8 @@ import img4 from '../assets/AboutMe/IMG_8993.jpeg';
 import img5 from '../assets/AboutMe/work_screenshot.png';
 import img6 from '../assets/AboutMe/IMG_8827.jpeg';
 import { motion } from 'framer-motion';
+/* Feature flag — controls whether images/photos are shown (see src/config/featureFlags.js) */
+import { SHOW_IMAGES } from '../config/featureFlags';
 
 export default function About() {
   return (
@@ -24,9 +26,8 @@ export default function About() {
                 🎓 Education
               </h3>
               <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
-                I'm a Computer Science Student at Toronto Metropolitan University (Class of June 2026) with a strong
-                interest in AI/ML, Data Analytics, and Software Engineering. I've also Minored in Mathematics and
-                Cybersecurity, and completed a Concentration in Software Engineering.
+                I'm a Computer Science Graduate (Honours) from Toronto Metropolitan University (Class of June 2026) with a strong
+                interest in AI/ML, Data Analytics, and Software Engineering. I've also Minored in Cybersecurity, and completed a Concentration in Software Engineering.
               </p>
             </div>
 
@@ -36,7 +37,9 @@ export default function About() {
                 💼 Work Experience
               </h3>
               <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
-                I've completed Internships at the{" "}
+                I'm currently working as an{" "}
+                <span className="font-semibold text-blue-600 dark:text-blue-400">Assistant Software Engineer Developer</span> at{" "}
+                <span className="font-semibold text-blue-600 dark:text-blue-400">Ontario Power Generation</span>. I've also completed Internships at the{" "}
                 <span className="font-semibold text-blue-600 dark:text-blue-400">Royal Canadian Mounted Police</span> and{" "}
                 <span className="font-semibold text-blue-600 dark:text-blue-400">Ontario Power Generation</span>, where I built
                 tools that improve workflows and provide actionable insights. These experiences have strengthened my technical skills
@@ -57,40 +60,43 @@ export default function About() {
           </div>
         </motion.div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <GalleryItem
-            img={img1}
-            alt="RCMP Challenge Coin"
-            caption="RCMP Challenge Coin"
-          />
-          <GalleryItem
-            img={img2}
-            alt="Flight Simulation"
-            caption="Flight Simulator at OPG"
-          />
-          <GalleryItem
-            img={img3}
-            alt="Visiting Dubai"
-            caption="Visiting Dubai"
-          />
-          <GalleryItem
-            img={img4}
-            alt="Billiards"
-            caption="Billiards"
-          />
-          <GalleryItem
-            img={img5}
-            alt="Innovation Pitch Award"
-            caption="Innovation Pitch Award"
-            className="md:col-span-2 lg:col-span-1"
-          />
-          <GalleryItem
-            img={img6}
-            alt="Trying out the Apple Vision Pro"
-            caption="Trying out the Apple Vision Pro"
-            className="md:col-span-2 lg:col-span-1"
-          />
-        </div>
+        {/* Feature Flag: Photo gallery — controlled by SHOW_IMAGES */}
+        {SHOW_IMAGES && (
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <GalleryItem
+              img={img1}
+              alt="RCMP Challenge Coin"
+              caption="RCMP Challenge Coin"
+            />
+            <GalleryItem
+              img={img2}
+              alt="Flight Simulation"
+              caption="Flight Simulator at OPG"
+            />
+            <GalleryItem
+              img={img3}
+              alt="Visiting Dubai"
+              caption="Visiting Dubai"
+            />
+            <GalleryItem
+              img={img4}
+              alt="Billiards"
+              caption="Billiards"
+            />
+            <GalleryItem
+              img={img5}
+              alt="Innovation Pitch Award"
+              caption="Innovation Pitch Award"
+              className="md:col-span-2 lg:col-span-1"
+            />
+            <GalleryItem
+              img={img6}
+              alt="Trying out the Apple Vision Pro"
+              caption="Trying out the Apple Vision Pro"
+              className="md:col-span-2 lg:col-span-1"
+            />
+          </div>
+        )}
       </div>
     </section>
   );

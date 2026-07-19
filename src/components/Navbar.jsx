@@ -2,6 +2,8 @@ import { Link } from "react-router-dom";
 
 import { useState, useEffect } from "react";
 import { FaSun, FaMoon, FaBars, FaTimes } from "react-icons/fa";
+/* Feature flag — controls whether resume links are shown (see src/config/featureFlags.js) */
+import { SHOW_RESUME } from '../config/featureFlags';
 
 export default function Navbar() {
   const [darkMode, setDarkMode] = useState(() => {
@@ -33,7 +35,10 @@ export default function Navbar() {
           <Link to="/products" className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition">Products</Link>
           <Link to="/projects" className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition">Projects</Link>
           <Link to="/contact" className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition">Contact Me</Link>
-          <a href="/Anish.pdf" target="_blank" rel="noopener noreferrer" className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition">Resume</a>
+          {/* Feature Flag: Resume nav link — controlled by SHOW_RESUME */}
+          {SHOW_RESUME && (
+            <a href="/Anish.pdf" target="_blank" rel="noopener noreferrer" className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition">Resume</a>
+          )}
 
           <button
             onClick={() => setDarkMode(!darkMode)}
@@ -65,7 +70,10 @@ export default function Navbar() {
           <Link to="/products" onClick={() => setIsMenuOpen(false)} className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400">Products</Link>
           <Link to="/projects" onClick={() => setIsMenuOpen(false)} className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400">Projects</Link>
           <Link to="/contact" onClick={() => setIsMenuOpen(false)} className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400">Contact Me</Link>
-          <a href="/Anish.pdf" target="_blank" rel="noopener noreferrer" className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400">Resume</a>
+          {/* Feature Flag: Resume nav link (mobile) — controlled by SHOW_RESUME */}
+          {SHOW_RESUME && (
+            <a href="/Anish.pdf" target="_blank" rel="noopener noreferrer" className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400">Resume</a>
+          )}
         </div>
       )}
     </nav>

@@ -3,6 +3,8 @@ import { useParams, Link, useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { products } from '../data/products';
 import ScrollToTop from '../components/ScrollToTop';
+/* Feature flag — controls whether images/photos are shown (see src/config/featureFlags.js) */
+import { SHOW_IMAGES } from '../config/featureFlags';
 
 export default function ProductDetail() {
     const { id } = useParams();
@@ -102,8 +104,8 @@ export default function ProductDetail() {
                             </div>
                         </motion.div>
 
-                        {/* Screenshots Placeholder - if we had images */}
-                        {product.images && product.images.length > 0 && (
+                        {/* Feature Flag: Product screenshots — controlled by SHOW_IMAGES */}
+                        {SHOW_IMAGES && product.images && product.images.length > 0 && (
                             <div className="space-y-6">
                                 <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">Gallery</h2>
                                 <div className="grid gap-6">
